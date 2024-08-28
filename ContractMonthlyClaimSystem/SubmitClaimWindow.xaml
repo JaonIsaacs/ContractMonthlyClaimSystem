@@ -4,15 +4,15 @@
         Title="Submit a Claim" Height="300" Width="400">
 	<Grid>
 		<StackPanel Margin="10">
-		<!-- Claim Details Input -->
+		
 		<TextBlock Text="Claim Details:" Margin="0,0,0,5"/>
-		<TextBox Name="ClaimDetailsTextBox" Height="100" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+		<TextBox Name="ClaimDetailsTextBox" Height="100" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" Text=""/>
 
-		<!-- Document Upload -->
+		
 		<TextBlock Text="Attach Document:" Margin="0,10,0,5"/>
 		<Button Name="BrowseDocumentButton" Content="Browse..." Click="BrowseDocumentButton_Click"/>
 
-		<!-- Submit Button -->
+		
 		<Button Name="SubmitClaimButton" Content="Submit Claim" Margin="0,20,0,0" Click="SubmitClaimButton_Click"/>
 		</StackPanel>
 	</Grid>
